@@ -1,0 +1,31 @@
+{
+  "name": "@becomes/simple-graphql-client",
+  "version": "1.0.1",
+  "description": "Simple GraphQL client.",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becomesco/simple-graphql-client.git"
+  },
+  "keywords": [],
+  "author": "Becomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/becomesco/simple-graphql-client/issues"
+  },
+  "homepage": "https://github.com/becomesco/simple-graphql-client#readme",
+  "dependencies": {
+    "graphql-client": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.28",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.8.2"
+  }
+}

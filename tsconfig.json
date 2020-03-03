@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true
+  },
+  "typedocOptions": {
+    "name": "Purple Cheetah",
+    "theme": "minimal",
+    "mode": "file",
+    "out": "typedoc"
+  },
+  "exclude": ["node_modules", "dist", "lib"]
+}
