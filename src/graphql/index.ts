@@ -72,6 +72,9 @@ export class GraphQLFactory {
       isInitialized,
       send,
       clear,
+      initialize: (AccessToken: string, RefreshToken: string) => {
+        GraphQLFactory.initializeTokens(AccessToken, RefreshToken, storage);
+      },
     };
   }
 
@@ -122,7 +125,7 @@ export class GraphQLFactory {
     return false;
   }
 
-  public static initializeTokens(
+  private static initializeTokens(
     accessToken: string,
     refreshToken: string,
     storage: Storage,
